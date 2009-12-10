@@ -1,0 +1,4 @@
+- Create makefile
+- build library in makefile
+- add a unit test library
+- bring over atom code
