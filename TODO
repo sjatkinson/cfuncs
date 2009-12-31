@@ -1,3 +1,4 @@
 * enhance makefile for better multi directory support
-- add a Rakefile to install cgreen
-- bring over atom code
+* add a Rakefile to install cgreen
+* write unit tests for atom and hash functions
+
