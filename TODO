@@ -1,4 +1,3 @@
-- Create makefile
-- build library in makefile
-- add a unit test library
+* enhance makefile for better multi directory support
+- add a Rakefile to install cgreen
 - bring over atom code
