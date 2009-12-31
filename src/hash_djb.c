@@ -1,4 +1,4 @@
-#include "hash_funcs.h"
+#include "../include/hash_funcs.h"
 
 unsigned int hash_djb(const char* s, size_t len)
 {

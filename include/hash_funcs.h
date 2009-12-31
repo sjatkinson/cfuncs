@@ -9,6 +9,8 @@
 #ifndef HASHFUNC_H__
 #define HASHFUNC_H__
 
+#include <stdlib.h>
+
 unsigned int hash_elf(const char* s, size_t len);
 unsigned int hash_djb(const char* s, size_t len);
 

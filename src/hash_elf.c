@@ -1,4 +1,4 @@
-#include "hash_funcs.h"
+#include "../include/hash_funcs.h"
 
 unsigned int hash_elf(const char* s, size_t len) {
    unsigned int h = 0, g;
