@@ -1,5 +1,5 @@
 
-#include "atom.h"
+#include "../include/atom.h"
 #include <string.h>
 
 #define NELEMS(x) ((sizeof(x) / (sizeof((x)[0]))))
@@ -56,7 +56,7 @@ static unsigned long scatter[] = {
 const char* atom_new(atom_t* atoms[], const char* s, size_t len) {
    unsigned long h;
    int i;
-   struct atom* p;
+   atom_t* p;
 
    for (h = 0, i = 0; i < len; i++)
       h = (h<<1) + scatter[(unsigned char)s[i]];

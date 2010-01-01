@@ -1,5 +1,5 @@
 
-#include "atom.h"
+#include "../include/atom.h"
 #include <string.h>
 #include <assert.h>
 
