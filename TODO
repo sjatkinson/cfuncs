@@ -1,4 +1,3 @@
 * enhance makefile for better multi directory support
 * complete Rakefile for cgreen - also need cmake
 * extend unit tests
-* use actual hash function in atom instead of scatter data
