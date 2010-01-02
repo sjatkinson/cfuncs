@@ -1,3 +1,11 @@
+/*
+ * atom_str
+ *
+ * Copyright notice:
+ * Free use of this source code is permitted under the guidelines and
+ * in accordance with the most current version of the Common Public License.
+ * http://www.opensource.org/licenses/cpl.php
+ */
 
 #include "../include/atom.h"
 #include <string.h>

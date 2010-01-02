@@ -1,6 +1,8 @@
 /*
- * Atoms are none mutable strings
- *
+ * Atoms are pointers to a unique, immutable sequences of bytes.
+ * Atoms can be creating from strings or from integers. Equivilent
+ * strings will always return the same pointer. 
+ * 
  * Copyright notice:
  * Free use of this source code is permitted under the guidelines and
  * in accordance with the most current version of the Common Public License.

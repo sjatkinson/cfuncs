@@ -1,3 +1,11 @@
+/*
+ * atom_new - creates a new atom from the given string.
+ *
+ * Copyright notice:
+ * Free use of this source code is permitted under the guidelines and
+ * in accordance with the most current version of the Common Public License.
+ * http://www.opensource.org/licenses/cpl.php
+ */
 
 #include "../include/atom.h"
 #include "../include/hash_funcs.h"
