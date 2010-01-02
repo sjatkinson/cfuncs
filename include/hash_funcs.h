@@ -14,5 +14,4 @@
 unsigned int hash_elf(const char* s, size_t len);
 unsigned int hash_djb(const char* s, size_t len);
 
-
 #endif

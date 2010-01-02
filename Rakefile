@@ -57,5 +57,8 @@ task :install do
   url = "http://downloads.sourceforge.net/project/cgreen/cgreen/cgreen_1.0beta2/cgreen-1.0.0-beta2.tar.gz"
   in_dir("~/src") do
     tarball url
+    in_dir("~/src/cgreen-1.0.0-beta2") do
+      system("make")
+    end
   end
 end
