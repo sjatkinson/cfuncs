@@ -7,8 +7,8 @@
  * http://www.opensource.org/licenses/cpl.php
  */
 
-#include "../include/atom.h"
-#include "../include/hash_funcs.h"
+#include "atom.h"
+#include "hash_funcs.h"
 #include <string.h>
 
 #define NELEMS(x) ((sizeof(x) / (sizeof((x)[0]))))

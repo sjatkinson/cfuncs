@@ -7,7 +7,7 @@
  * http://www.opensource.org/licenses/cpl.php
  */
 
-#include "../include/atom.h"
+#include "atom.h"
 #include <string.h>
 #include <assert.h>
 
