@@ -1,3 +1,4 @@
 * enhance makefile for better multi directory support
 * complete Rakefile for cgreen - also need cmake
 * extend unit tests
+* atom is fundementally broken. Need to know the size of the atom array.
